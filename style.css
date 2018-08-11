@@ -48,18 +48,18 @@ body{
     box-shadow: 10px 10px 10px #ff5864;
 }
 .box{
-    border: 10px solid orange;
+    border: 1vw solid orange;
     border-radius: 50%;
     background-color: white;
 }
 .congratulations-final{
     z-index: 2;
-    margin-top: 50px;
+    margin-top: 70px;
     background-color: white;
     text-align: center;
     padding: 20px;
-    font-size: 26px;
     width: 60vw;
+    height: 300px;
     margin-left: 20vw;
 }
 #event-1{
@@ -145,7 +145,7 @@ body{
     position: absolute;
     height: 10px;
     width: 20vw;
-    left: calc(31vw - 36px);
+    left: calc(30.5vw - 36px);
     border-radius: 10px;
     /* box-shadow: 18px -15px 0px #ff5864; */
 }
