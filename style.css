@@ -4,6 +4,14 @@ body{
     padding-bottom: 100px;
     font-size: 2vw;
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+.particle-bg{
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    height: 100vh; 
+    width: 100vw;
 }
 .hero{
     background-image: url('https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/35985888_10213722928759775_4596440280390959104_o.jpg?_nc_cat=0&oh=aaf7c0f9dbaa62b2333adec7494746e1&oe=5C098BB2');
@@ -109,7 +117,7 @@ body{
     height: 10px;
     width: 20vw;
     border-radius: 10px;
-    box-shadow: 18px -15px 0px #ff5864;
+    /* box-shadow: 18px -15px 0px #ff5864; */
 }
 #event-2::after{
     content:"";
@@ -119,7 +127,7 @@ body{
     width: 20vw;
     left: calc(31vw - 36px);
     border-radius: 10px;
-    box-shadow: 18px -15px 0px #273e6b;
+    /* box-shadow: 18px -15px 0px transparent; */
 }
 #event-3::after{
     content:"";
@@ -129,7 +137,7 @@ body{
     width: 20vw;
     left: calc(50vw - 36px);
     border-radius: 10px;
-    box-shadow: 18px -15px 0px #1DA1F2;
+    /* box-shadow: 18px -15px 0px #1DA1F2; */
 }
 #event-4::after{
     content:"";
@@ -139,7 +147,7 @@ body{
     width: 20vw;
     left: calc(31vw - 36px);
     border-radius: 10px;
-    box-shadow: 18px -15px 0px #ff5864;
+    /* box-shadow: 18px -15px 0px #ff5864; */
 }
 #size-1{
     padding-left: 55vw;
