@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    background-color: #0e1726;
+    padding-bottom: 100px;
+    font-size: 2vw;
+    overflow-x: hidden;
+}
+.hero{
+    background-image: url('https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/35985888_10213722928759775_4596440280390959104_o.jpg?_nc_cat=0&oh=aaf7c0f9dbaa62b2333adec7494746e1&oe=5C098BB2');
+    height: 700px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 340px;
+    color: white;
+    font-size: 50px;
+    border-bottom: 18px solid #ff5864;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-position: 55% 50%;
+}
+.hero::after{
+    content:"";
+    z-index: 1;
+    position: absolute;
+    background-color: transparent;
+    top: 700px;
+    height: 95vw;
+    width: 18px;
+    left: calc(50vw - 36px);
+    border-radius: 10px;
+    box-shadow: 18px -15px 0px #ff5864;
+}
+.row{
+    box-sizing: border-box;
+    width: 100vw;
+    /* background-color: green; */
+    /* margin-top: 50px; */
+}
+.row::after{
+    box-shadow: 10px 10px 10px #ff5864;
+}
+.box{
+    border: 10px solid orange;
+    border-radius: 50%;
+    background-color: white;
+}
+.congratulations-final{
+    z-index: 2;
+    margin-top: 50px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 26px;
+    width: 60vw;
+    margin-left: 20vw;
+}
+#event-1{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Deutsche_Bank_logo_without_wordmark.svg/1024px-Deutsche_Bank_logo_without_wordmark.svg.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20vw;
+    height: 30vw;
+    width: 30vw;
+}
+#event-2{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/PIMCO_Logo.svg/2000px-PIMCO_Logo.svg.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10vw;
+    border-color: #273e6b;
+    height: 20vw;
+    width: 20vw;
+}
+#event-3{
+    background-image: url('http://www.stickpng.com/assets/images/580b57fcd9996e24bc43c53e.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 18vw;
+    border-color: #1DA1F2;
+    height: 30vw;
+    width: 30vw;
+}
+#event-4{
+    background-image: url('http://1000logos.net/wp-content/uploads/2018/07/tinder-logo.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 18vw;
+    border-color: #ff5864;
+    height: 30vw;
+    width: 30vw;
+}
+#event-1::after{
+    left: calc(50vw - 36px);
+    content:"";
+    z-index: -1;
+    position: absolute;
+    height: 10px;
+    width: 20vw;
+    border-radius: 10px;
+    box-shadow: 18px -15px 0px #ff5864;
+}
+#event-2::after{
+    content:"";
+    z-index: -1;
+    position: absolute;
+    height: 10px;
+    width: 20vw;
+    left: calc(31vw - 36px);
+    border-radius: 10px;
+    box-shadow: 18px -15px 0px #273e6b;
+}
+#event-3::after{
+    content:"";
+    z-index: -1;
+    position: absolute;
+    height: 10px;
+    width: 20vw;
+    left: calc(50vw - 36px);
+    border-radius: 10px;
+    box-shadow: 18px -15px 0px #1DA1F2;
+}
+#event-4::after{
+    content:"";
+    z-index: -1;
+    position: absolute;
+    height: 10px;
+    width: 20vw;
+    left: calc(31vw - 36px);
+    border-radius: 10px;
+    box-shadow: 18px -15px 0px #ff5864;
+}
+#size-1{
+    padding-left: 55vw;
+    height: 25vw;
+}
+#size-2{
+    padding-left: 15vw;
+    height: 15vw;
+}
+#size-3{
+    padding-left: 57vw;
+    height: 20vw;
+}
+#size-4{
+    padding-left: 12vw;
+}
