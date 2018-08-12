@@ -164,3 +164,8 @@ body{
 #size-4{
     padding-left: 12vw;
 }
+@media (max-width: 700px) { 
+    .hero::after{
+        height: 120vw;
+    }
+}
